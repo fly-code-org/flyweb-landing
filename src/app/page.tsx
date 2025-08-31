@@ -7,11 +7,12 @@ import Tag from "@/sections/Tag";
 import About from "@/sections/About";
 import EverythingSection from "@/sections/Everything";
 import ForMHPs from "@/sections/ForMHPs";
+import AnonymousSection from "@/sections/Anonymous";
 
 export default function Page() {
   return (
     <><Home />
-    <br></br>
+    <AnonymousSection />
     <Impact />
     <Tag />
     <br></br>
