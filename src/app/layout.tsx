@@ -1,7 +1,8 @@
 // src/app/layout.tsx
 import "./globals.css";
 import { Lexend } from "next/font/google";
-import Navbar from "@/components/Navbar"; // ✅ add this
+import Navbar from "@/components/Navbar";
+import { Toaster } from "@/components/ui/sonner";
 
 const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend" });
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${lexend.variable} font-sans`}>
         <Navbar /> {/* ✅ Navbar always visible */}
         {children}
+        <Toaster richColors position="top-center" />
       </body>
     </html>
   );
