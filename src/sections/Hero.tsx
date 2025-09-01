@@ -29,17 +29,19 @@ export default function Hero() {
         <p className="text-sm md:text-lg text-gray-600 max-w-sm md:max-w-2xl mb-10">
           Ab dil ki baat dil me mat rakho, fly per share karo!
         </p>
-
-        {/* Center Image fixed above semicircles */}
-        <div className="absolute bottom-0 md:bottom-1 left-1/2 -translate-x-1/2 w-[180px] h-[180px] md:w-[400px] md:h-[400px]">
-          <Image
-            src="/icons/happy.jpg"
-            alt="FLY App"
-            fill
-            className="object-contain"
-          />
-        </div>
       </div>
+
+      {/* Image fixed at the bottom */}
+      {/* Center Image fixed aligned with semicircle base */}
+<div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120px] h-[120px] md:w-[400px] md:h-[400px] flex items-end">
+  <Image
+    src="/icons/happy.jpg"
+    alt="FLY App"
+    fill
+    className="object-bottom"
+  />
+</div>
+
     </section>
   );
 }
