@@ -39,7 +39,7 @@ export default function AboutUs() {
             </p>
             <div className="flex justify-center my-4">
               <Image
-                src="/icons/fly_half.png"
+                src="/icons/welcome.png"
                 alt="About Fly"
                 width={400}
                 height={250}
