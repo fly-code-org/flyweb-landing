@@ -10,7 +10,9 @@ export default function AnonymousSection() {
         
         {/* Left Half */}
         <div className="flex flex-col items-center text-center">
-          <div className="text-8xl mb-6">😔</div>
+          <div className="text-8xl mb-6">
+            <img src="/icons/sad.png" alt="Sad face" className="w-20 h-20" />
+          </div>
           <h2 className="text-2xl md:text-3xl font-bold text-red-500 mb-4">
             Elsewhere, you have to pretend.
           </h2>
@@ -21,7 +23,9 @@ export default function AnonymousSection() {
 
         {/* Right Half */}
         <div className="flex flex-col items-center text-center">
-          <div className="text-8xl mb-6">😔</div>
+          <div className="text-8xl mb-6">
+            <img src="/icons/happy.png" alt="Happy face" className="w-20 h-20" />
+          </div>
           <h2 className="text-2xl md:text-3xl font-bold text-purple-600 mb-4">
             With Fly you stay
           </h2>
