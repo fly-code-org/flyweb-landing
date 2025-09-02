@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={`${lexend.variable} font-sans`}>
-        <Navbar /> {/* ✅ Navbar always visible */}
+        <Navbar />
         {children}
         <Toaster richColors position="top-center" />
       </body>
