@@ -37,7 +37,7 @@ export default function AboutUs() {
               find uplifting and relatable content, and connect with certified
               Mental Health Professionals (MHPs).
             </p>
-            <div className="flex justify-center my-10">
+            <div className="flex justify-center my-4">
               <Image
                 src="/icons/welcome.png"
                 alt="About Fly"

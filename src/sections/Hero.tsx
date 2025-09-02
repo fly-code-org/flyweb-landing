@@ -34,14 +34,16 @@ export default function Hero() {
       </div>
 
       {/* Image fixed at the bottom */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120px] h-[120px] md:w-[400px] md:h-[400px] flex items-end">
-        <Image
-          src="/icons/happy.jpg"
-          alt="FLY App"
-          fill
-          className="object-bottom"
-        />
-      </div>
+     <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120px] h-[80px] md:w-[400px] md:h-[350px] flex items-end rounded-3xl overflow-hidden">
+      <Image
+        src="/icons/hero.png"
+        alt="FLY App"
+        fill
+        className="object-bottom"
+      />
+    </div>
+
+
 
     </section>
   );
