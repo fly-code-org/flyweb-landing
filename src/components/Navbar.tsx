@@ -37,7 +37,7 @@ export default function Navbar() {
             {navLinks.map((link) => (
               <Link
                 key={link.name}
-                href={link.href}
+                href="/"
                 className={`text-base font-medium transition-colors ${
                   pathname === link.href
                     ? "text-purple-600"

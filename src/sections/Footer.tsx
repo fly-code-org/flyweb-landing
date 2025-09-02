@@ -33,16 +33,16 @@ export default function Footer() {
               height={40}
             />
             <div className="flex gap-4 mt-6 py-5">
-              <a href="#" className="text-gray-700 hover:text-purple-600">
+              <a href="https://www.facebook.com/profile.php?id=61554950597058&mibextid=ZbWKwL" className="text-gray-700 hover:text-purple-600">
                 <FaFacebook size={22} />
               </a>
               <a href="#" className="text-gray-700 hover:text-purple-600">
                 <FaTwitter size={22} />
               </a>
-              <a href="#" className="text-gray-700 hover:text-purple-600">
+              <a href="https://www.instagram.com/youcan__fly/" className="text-gray-700 hover:text-purple-600">
                 <FaInstagram size={22} />
               </a>
-              <a href="#" className="text-gray-700 hover:text-purple-600">
+              <a href="https://www.linkedin.com/company/youcan-fly/about/" className="text-gray-700 hover:text-purple-600">
                 <FaLinkedin size={22} />
               </a>
             </div>
@@ -53,12 +53,16 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Information</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/privacy" className="text-gray-700 hover:text-purple-600">
+                <a href="#" 
+                onClick={(e) => e.preventDefault()}
+                className="text-gray-700 hover:text-purple-600">
                   Privacy
                 </a>
               </li>
               <li>
-                <a href="/faq" className="text-gray-700 hover:text-purple-600">
+                <a href="#" 
+                onClick={(e) => e.preventDefault()}
+                className="text-gray-700 hover:text-purple-600">
                   FAQ
                 </a>
               </li>

@@ -27,20 +27,21 @@ export default function Hero() {
         </h1>
 
         <p className="text-sm md:text-lg text-gray-600 max-w-sm md:max-w-2xl mb-10">
-          Ab dil ki baat dil me mat rakho, fly per share karo!
+          Ab dil ki baat dil me mat rakho,{" "}
+          <span className="font-bold">fly</span> per share karo!
         </p>
+
       </div>
 
       {/* Image fixed at the bottom */}
-      {/* Center Image fixed aligned with semicircle base */}
-<div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120px] h-[120px] md:w-[400px] md:h-[400px] flex items-end">
-  <Image
-    src="/icons/happy.jpg"
-    alt="FLY App"
-    fill
-    className="object-bottom"
-  />
-</div>
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120px] h-[120px] md:w-[400px] md:h-[400px] flex items-end">
+        <Image
+          src="/icons/happy.jpg"
+          alt="FLY App"
+          fill
+          className="object-bottom"
+        />
+      </div>
 
     </section>
   );
