@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "79L8UXYWLQ.com.fly.mentalhealth",
+        "paths": [
+          "/post/*"
+        ]
+      }
+    ]
+  }
+}
