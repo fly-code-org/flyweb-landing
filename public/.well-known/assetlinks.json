@@ -1,12 +1,5 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.example.fly",
-      "sha256_cert_fingerprints": [
-        "c17349ad1c33c95b970b1434cb5cf0e583e3d374fa3b0aa20b74581dcb72c910"
-      ]
-    }
-  }
-]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.example.fly",
+               "sha256_cert_fingerprints": ["c17349ad1c33c95b970b1434cb5cf0e583e3d374fa3b0aa20b74581dcb72c910"] }
+}]
